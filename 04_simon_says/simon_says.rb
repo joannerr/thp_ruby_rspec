@@ -27,10 +27,5 @@ end
 
 
 def titleize(title)
-	little_words = ["and", "the"]
 	"#{title}".split.map(&:capitalize).join(' ')
-	if little_words 
-
-
 end
-#TO BE MODIFIED
